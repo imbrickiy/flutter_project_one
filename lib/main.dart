@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project_one/bottom_app_bar.dart';
-import 'package:flutter_project_one/floating_app_bar.dart';
+import 'package:flutter_project_one/player_screen_demo.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
 
         // useMaterial3: true,
       ),
-      home: BottomAppBarDemo(),
+      home: PlayerScreenDemo(),
     );
   }
 }
